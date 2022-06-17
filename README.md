@@ -2,6 +2,8 @@ Data source: Airbnb public data
 
 http://insideairbnb.com/get-the-data/
 
+------------------------------------------------------------------------------------------------------
+
 Montreal
 
 http://data.insideairbnb.com/canada/qc/montreal/2022-03-12/visualisations/listings.csv
