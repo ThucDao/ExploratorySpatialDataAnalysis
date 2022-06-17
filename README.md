@@ -8,12 +8,6 @@ http://data.insideairbnb.com/canada/qc/montreal/2022-03-12/visualisations/listin
 
 http://data.insideairbnb.com/canada/qc/montreal/2022-03-12/visualisations/neighbourhoods.geojson
 
-New Brunswick
-
-http://data.insideairbnb.com/canada/nb/new-brunswick/2022-03-29/visualisations/listings.csv
-
-http://data.insideairbnb.com/canada/nb/new-brunswick/2022-03-29/visualisations/neighbourhoods.geojson
-
 Quebec City
 
 http://data.insideairbnb.com/canada/qc/quebec-city/2022-03-09/visualisations/listings.csv
