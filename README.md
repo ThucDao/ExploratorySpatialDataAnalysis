@@ -1,4 +1,4 @@
-Data source: Airbnb public data
+Data source: Inside Airbnb
 
 http://insideairbnb.com/get-the-data/
 
