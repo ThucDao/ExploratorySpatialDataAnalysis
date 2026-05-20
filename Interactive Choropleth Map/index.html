@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interactive Choropleth Map</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- set the font for the whole webpage -->
+    <style>
+      html,body,h1,h2,h3,h4,h5,h6 {font-family: "candara", sans-serif}
+    </style>
+  </head>
+  
+  <body style="background-color:CornSilk; font-size:17px; color:DimGray;"">
+    <center>
+    <h1 style="font-family:verdana; font-size:35px; color:Tomato;">
+      Interactive Choropleth Map
+    </h1>
+
+    <h2 style="font-family:candara; font-size:25px; color:GoldenRod;">
+      <b>Airbnb average listing price in Canadian cities, 2022</b>
+    </h2>
+
+    <h3 style="font-family:candara; font-size:25px; color:Orange;">
+      <b>By Thuc Dao</b>
+    </h3>
+    </center>
+
+    <div class="big-box">
+    <h2>Please click a row to show / hide the map.</h2>
+      <button class="accordion">Quebec City, 2022-03-09</button>
+      <div class="panel">
+        <iframe
+          scrolling="no" style="border:none" 
+          src="graphs/Airbnb_price_Quebec City.html" 
+          height="600" width="100%">            
+        </iframe>
+        <div style="height:20px;"> </div>
+      </div>
+
+      <button class="accordion">Montreal, 2022-03-12</button>
+      <div class="panel">
+        <iframe
+          scrolling="no" style="border:none" 
+          src="graphs/Airbnb_price_Montreal.html" 
+          height="600" width="100%">            
+        </iframe>
+        <div style="height:20px;"> </div>
+      </div>
+
+      <button class="accordion">Toronto, 2022-03-08</button>
+      <div class="panel">
+        <iframe
+          scrolling="no" style="border:none" 
+          src="graphs/Airbnb_price_Toronto.html" 
+          height="600" width="100%">            
+        </iframe>
+        <div style="height:20px;"> </div>
+      </div>
+
+      <button class="accordion">Winnipeg, 2022-06-08</button>
+      <div class="panel">
+        <iframe
+          scrolling="no" style="border:none" 
+          src="graphs/Airbnb_price_Winnipeg.html" 
+          height="600" width="100%">            
+        </iframe>
+        <div style="height:20px;"> </div>
+      </div>
+
+      <button class="accordion">Vancouver, 2022-03-10</button>
+      <div class="panel">
+        <iframe
+          scrolling="no" style="border:none" 
+          src="graphs/Airbnb_price_Vancouver.html" 
+          height="600" width="100%">            
+        </iframe>
+        <div style="height:20px;"> </div>
+      </div>
+
+      <button class="accordion">Victoria, 2022-03-29</button>
+      <div class="panel">
+        <iframe
+          scrolling="no" style="border:none" 
+          src="graphs/Airbnb_price_Victoria.html" 
+          height="600" width="100%">            
+        </iframe>
+        <div style="height:20px;"> </div>
+      </div>
+    </div>
+    
+    <!-- a blank space before the page end -->
+    <div style="height:0px;"> </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

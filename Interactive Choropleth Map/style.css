@@ -1,0 +1,479 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ================================================== */
+/* define custom fonts to be loaded on the webpage */
+
+@font-face {
+  src: url(fonts/candara.ttf);
+  font-family: candara;
+}
+
+@font-face {
+  src: url(fonts/candara_bold.ttf);
+  font-family: candara;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(fonts/candara_italic.ttf);
+  font-family: candara;
+  font-style: italic;
+}
+
+@font-face {
+  src: url(fonts/candara_bold_italic.ttf);
+  font-family: candara;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  src: url(fonts/constantia.ttf);
+  font-family: constantia;
+}
+
+@font-face {
+  src: url(fonts/constantia_bold.ttf);
+  font-family: constantia;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(fonts/constantia_italic.ttf);
+  font-family: constantia;
+  font-style: italic;
+}
+
+@font-face {
+  src: url(fonts/constantia_bold_italic.ttf);
+  font-family: constantia;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  src: url(fonts/papyrus.ttf);
+  font-family: papyrus;
+}
+
+@font-face {
+  src: url(fonts/verdana.ttf);
+  font-family: verdana;
+}
+
+@font-face {
+  src: url(fonts/verdana_bold.ttf);
+  font-family: verdana;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(fonts/verdana_italic.ttf);
+  font-family: verdana;
+  font-style: italic;
+}
+
+@font-face {
+  src: url(fonts/verdana_bold_italic.ttf);
+  font-family: verdana;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* ================================================== */
+/* set margin and indent for text */
+
+.margin_indent {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.margin_no-indent {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+.margin_no-indent_center {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+/* ================================================== */
+/* set font properties and the line height for text */
+
+.font-verdana {
+  font-family: verdana; 
+  font-size: 16px; 
+  color: Gray; 
+  line-height: 1.5;
+}
+
+.font-verdana_line2 {
+  font-family: verdana; 
+  font-size: 16px; 
+  color: Gray; 
+  line-height: 2;
+}
+
+.font-candara_20px {
+  font-family: candara; 
+  font-size: 20px; 
+  color: Chocolate; 
+  line-height: auto;
+}
+
+.font-candara_20px_italic {
+  font-family: candara; 
+  font-size: 20px; 
+  font-style: italic;
+  color: Chocolate; 
+  line-height: auto;
+}
+
+.font-candara_15px {
+  font-family: candara; 
+  font-size: 15px; 
+  color: Chocolate; 
+  line-height: auto;
+}
+
+.font-candara_18px {
+  font-family: candara; 
+  font-size: 18px; 
+  color: Chocolate; 
+  line-height: auto;
+}
+
+/* ================================================== */
+/* format a quote box and text inside */
+
+.quote-box {
+  display: table-cell;
+  width: 75%;
+  height: 160px;
+  padding: 10px;
+  border: 20px solid #FFD700;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.quote-text {
+  font-family: "constantia";
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: darkmagenta;
+}
+
+/* ================================================== */
+/* set margin for tables */
+
+.table-margin {
+  width: auto; 
+  margin-left: 40px; 
+  margin-right: 40px; 
+  margin-top: 0px; 
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+/* ================================================== */
+
+.flex-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================================================== */
+/* create several custom buttons */
+
+div#back_button {
+  position: fixed;
+  bottom: 3vh;
+  right: 3vw;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 8px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-circle {
+  border: none;
+  color: white;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonOrange {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #FF8C00;
+}
+
+.buttonOrange:hover {
+  background-color: #FF8C00;
+  color: white;
+}
+
+.buttonGreen {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.buttonGreen:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttonBlue {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.buttonBlue:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.buttonViolet {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8A2BE2;
+}
+
+.buttonViolet:hover {
+  background-color: #8A2BE2;
+  color: white;
+}
+
+/* ================================================== */
+/* format tables and boxes */
+
+.table-format {
+  width: 100%;
+  border-spacing: 1px;
+}
+
+.big-box {
+  width: 95%;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.big-box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* ================================================== */
+/* format stars and cards */
+
+.star-format {
+  font-size: 120%; 
+  color: gold;
+}
+
+.card {
+  height: auto;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  margin-bottom: 2.5vw;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.column3 {
+  float: left;
+  width: 32.5%;
+  padding-left: 2.5vw;
+}
+
+/* Responsive layout: when the screen is less than 1150px wide, make columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1150px) {
+  .column3 {
+    width: 100%;
+    padding-right: 2.5vw;
+    padding-bottom: 10px;
+    display: block;
+  }
+}
+
+/* METHOD 2
+.card {
+  flex: 33%;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 0px;
+  margin-bottom: 2.5vw;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive layout: when the screen is less than 800px wide, makes a one column layout instead of a multi-column layout */
+/* 
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+METHOD 2 */
+
+/* ================================================== */
+/* Create columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+.left-column {
+  float: left;
+  width: 20%;
+  padding: 0px;
+}
+
+.right-column {
+  float: left;
+  width: 80%;
+  padding-left: 0px;
+}
+
+.content-column {
+  float: left;
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout: when the screen is less than 1200px wide, make columns stack on top of each other instead of next to each other */
+@media (max-width: 1200px) {
+  .column, .left-column, .right-column {
+    width: 100%;
+  }
+  .content-column {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+/* ================================================== */
+/* Accordion bar and panel */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* ================================================== */
+/* responsive image */
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ================================================== */
