@@ -1,0 +1,23 @@
+Montreal
+Moran's I value: 0.08129999107479662
+p-value: 0.109
+
+Quebec City
+Moran's I value: -0.0998559053213681
+p-value: 0.227
+
+Toronto
+Moran's I value: 0.37939917945817603
+p-value: 0.001
+
+Vancouver
+Moran's I value: 0.25926115056716487
+p-value: 0.014
+
+Victoria
+Moran's I value: 0.23031037456272505
+p-value: 0.014
+
+Winnipeg
+Moran's I value: -0.34351245464294594
+p-value: 0.002
